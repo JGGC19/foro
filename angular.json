@@ -25,11 +25,12 @@
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.css",
-              "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
-              "node_modules/popper.js/dist/popper.js",
+              "node_modules/popper.js/dist/umd/popper.js",
               "node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
@@ -105,6 +106,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "63a065bb-26d6-48b8-abdb-c98d8ab74fca"
   }
 }
